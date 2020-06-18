@@ -3,14 +3,25 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"IkBen_atlas_1", frames: [[0,0,1855,1362]]},
-		{name:"IkBen_atlas_2", frames: [[0,0,1855,1362]]},
-		{name:"IkBen_atlas_3", frames: [[0,0,1855,1362]]},
-		{name:"IkBen_atlas_4", frames: [[0,0,1855,1362]]},
-		{name:"IkBen_atlas_5", frames: [[0,0,1855,1362]]},
-		{name:"IkBen_atlas_6", frames: [[0,0,1855,1362]]},
-		{name:"IkBen_atlas_7", frames: [[0,0,888,840],[890,0,888,840],[0,842,888,840],[890,842,888,840]]},
-		{name:"IkBen_atlas_8", frames: [[906,564,472,452],[906,0,578,562],[0,690,762,270],[0,962,762,270],[0,0,904,688],[1486,0,395,618]]}
+		{name:"IkBen_atlas_1", frames: [[0,0,1460,1751]]},
+		{name:"IkBen_atlas_2", frames: [[0,0,1460,1751]]},
+		{name:"IkBen_atlas_3", frames: [[0,0,1460,1751]]},
+		{name:"IkBen_atlas_4", frames: [[0,0,1460,1751]]},
+		{name:"IkBen_atlas_5", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_6", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_7", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_8", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_9", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_10", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_11", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_12", frames: [[0,0,1459,1751]]},
+		{name:"IkBen_atlas_13", frames: [[0,0,1855,1363]]},
+		{name:"IkBen_atlas_14", frames: [[0,0,1855,1363]]},
+		{name:"IkBen_atlas_15", frames: [[0,0,1855,1362]]},
+		{name:"IkBen_atlas_16", frames: [[0,0,1855,1362]]},
+		{name:"IkBen_atlas_17", frames: [[0,0,1855,1362]]},
+		{name:"IkBen_atlas_18", frames: [[0,0,1855,1362]]},
+		{name:"IkBen_atlas_19", frames: [[906,661,762,270],[0,690,762,270],[906,0,450,659],[0,0,904,688]]}
 ];
 
 
@@ -144,122 +155,260 @@ lib.ssMetadata = [
 
 
 
-(lib.CachedBmp_21 = function() {
-	this.initialize(ss["IkBen_atlas_8"]);
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["IkBen_atlas_19"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_37 = function() {
-	this.initialize(ss["IkBen_atlas_8"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["IkBen_atlas_8"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["IkBen_atlas_8"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_24 = function() {
-	this.initialize(ss["IkBen_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hat_black = function() {
-	this.initialize(ss["IkBen_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hat_green = function() {
-	this.initialize(ss["IkBen_atlas_2"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hat_red = function() {
-	this.initialize(ss["IkBen_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hat_white = function() {
-	this.initialize(ss["IkBen_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.hat_blue = function() {
+(lib.__alleman = function() {
 	this.initialize(ss["IkBen_atlas_5"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.hat_yellow = function() {
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["IkBen_atlas_19"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__avonturier = function() {
+	this.initialize(ss["IkBen_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__bewustwakker = function() {
+	this.initialize(img.__bewustwakker);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__autonoomzichtbaar = function() {
+	this.initialize(img.__autonoomzichtbaar);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__bijjezelfblijvenreflecteren = function() {
+	this.initialize(img.__bijjezelfblijvenreflecteren);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__held = function() {
 	this.initialize(ss["IkBen_atlas_6"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_23 = function() {
-	this.initialize(ss["IkBen_atlas_8"]);
-	this.gotoAndStop(4);
+(lib.__gras = function() {
+	this.initialize(img.__gras);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2084,2084);
+
+
+(lib.__leergierigflexibelgeduldig = function() {
+	this.initialize(img.__leergierigflexibelgeduldig);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1667);
+
+
+(lib.__liefhebber = function() {
+	this.initialize(ss["IkBen_atlas_7"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_1 = function() {
+(lib.__nieuwedingenproberenmoedig = function() {
+	this.initialize(img.__nieuwedingenproberenmoedig);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1667);
+
+
+(lib.__oordeelloosempatischrespectvol = function() {
+	this.initialize(img.__oordeelloosempatischrespectvol);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__opentoegankelijkeerlijk = function() {
+	this.initialize(img.__opentoegankelijkeerlijk);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__overgavebescheiden = function() {
+	this.initialize(img.__overgavebescheiden);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__betrokkenverbindendhulpvaardig = function() {
+	this.initialize(img.__betrokkenverbindendhulpvaardig);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1668);
+
+
+(lib.__tovenaar = function() {
 	this.initialize(ss["IkBen_atlas_8"]);
-	this.gotoAndStop(5);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
+
+
+(lib.__voeder = function() {
+	this.initialize(ss["IkBen_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__efficientstructuurgeordend = function() {
+	this.initialize(img.__efficientstructuurgeordend);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2251,1667);
+
+
+(lib.__vurig = function() {
+	this.initialize(img.__vurig);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2084,2084);
+
+
+(lib.__wijze = function() {
+	this.initialize(ss["IkBen_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__zonnig = function() {
+	this.initialize(img.__zonnig);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2084,2084);
+
+
+(lib.__kind = function() {
+	this.initialize(ss["IkBen_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hat_blue = function() {
+	this.initialize(ss["IkBen_atlas_15"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hat_green = function() {
+	this.initialize(ss["IkBen_atlas_16"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hat_red = function() {
+	this.initialize(ss["IkBen_atlas_13"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hat_white = function() {
+	this.initialize(ss["IkBen_atlas_17"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hat_yellow = function() {
+	this.initialize(ss["IkBen_atlas_18"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.hat_black = function() {
+	this.initialize(ss["IkBen_atlas_14"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__koning = function() {
+	this.initialize(ss["IkBen_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__vrijbuiter = function() {
+	this.initialize(ss["IkBen_atlas_11"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__grapjas = function() {
+	this.initialize(ss["IkBen_atlas_12"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__schepper = function() {
+	this.initialize(ss["IkBen_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.__koninglijk = function() {
+	this.initialize(img.__koninglijk);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2084,2085);
 
 
 (lib.CachedBmp_26 = function() {
-	this.initialize(ss["IkBen_atlas_7"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_27 = function() {
-	this.initialize(ss["IkBen_atlas_7"]);
+	this.initialize(ss["IkBen_atlas_19"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_25 = function() {
-	this.initialize(ss["IkBen_atlas_7"]);
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["IkBen_atlas_19"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.CachedBmp_60 = function() {
-	this.initialize(img.CachedBmp_60);
+(lib.CachedBmp_3 = function() {
+	this.initialize(img.CachedBmp_3);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,5061,3041);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,5101,3081);
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(img.CachedBmp_2);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,5101,3081);
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(img.CachedBmp_4);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,5101,3081);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop));
@@ -282,308 +431,311 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Nieuwe dingen\nproberen, moedig en verantwoordelijk\nzijn.", "bold 38px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__nieuwedingenproberenmoedig();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Nieuwe dingen\nproberen, moedig, verantwoordelijk", "bold 38px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 48;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(144.05,6.55);
+	this.text.setTransform(144.05,294.95);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-15.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-15.9,54,320,507.5);
 
 
 (lib.Uitdaging9 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Autonoom,\nzichtbaar zijn", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__autonoomzichtbaar();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Autonoom,\nzichtbaar zijn", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,482.79999999999995);
 
 
 (lib.Uitdaging8 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Betrokken,\nVerbindend,\nHulpvaardig,\nTeamspirit", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__betrokkenverbindendhulpvaardig();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Betrokken,\nVerbindend,\nHulpvaardig", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,482.79999999999995);
 
 
 (lib.Uitdaging7 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Efficiënt,\nStructuur,\nGeördend", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__efficientstructuurgeordend();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Efficiënt,\nStructuur,\nGeördend", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,474.5);
 
 
 (lib.Uitdaging6 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Leergierig,\nFlexibel,\nGeduldig", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__leergierigflexibelgeduldig();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Leergierig,\nFlexibel,\nGeduldig", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,474.5);
 
 
 (lib.Uitdaging5 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Overgave,\nBescheiden,\nBereidwillig", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__overgavebescheiden();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Overgave,\nBescheiden,\nBereidwillig", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,474.5);
 
 
 (lib.Uitdaging4 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Bewust & wakker ten opzichte van anderen", "bold 46px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__bewustwakker();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Bewust & wakker ten opzichte van anderen", "bold 46px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 58;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(144.05,22);
+	this.text.setTransform(144.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-15.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-15.9,54,320,474.5);
 
 
 (lib.Uitdaging3 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Oordeelloos,\nempathisch,\nrespectvol zijn", "bold 46px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__oordeelloosempatischrespectvol();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Oordeelloos,\nempathisch,\nrespectvol zijn", "bold 46px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 58;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(144.05,22);
+	this.text.setTransform(144.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-15.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-15.9,54,320,474.5);
 
 
 (lib.Uitdaging2 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Bij jezelf blijven,\nReflecteren", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__bijjezelfblijvenreflecteren();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Bij jezelf blijven,\nReflecteren", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.45);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,474.5);
 
 
 (lib.Uitdaging1 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Open, \nToegankelijk, \nEerlijk zijn", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__opentoegankelijkeerlijk();
+	this.instance.setTransform(-9,54,0.1371,0.1371);
+
+	this.text = new cjs.Text("Open, \nToegankelijk, \nEerlijk zijn", "bold 48px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 316;
 	this.text.parent = this;
-	this.text.setTransform(148.05,22);
+	this.text.setTransform(148.05,294.4);
 
-	this.instance = new lib.CachedBmp_37();
-	this.instance.setTransform(-0.5,-0.5,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-11.9,-0.5,320,281);
+p.nominalBounds = new cjs.Rectangle(-11.9,54,320,474.5);
 
 
 (lib.WarmGrasgroen = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
+	this.instance = new lib.__gras();
+	this.instance.setTransform(-78,-74,0.2798,0.2798);
+
 	this.text = new cjs.Text("Warm\nGras Groen", "bold 94px 'Calibri'");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 117;
-	this.text.lineWidth = 384;
+	this.text.lineWidth = 459;
 	this.text.parent = this;
-	this.text.setTransform(212.1,20.5);
+	this.text.setTransform(222.05,485.05);
 
-	this.instance = new lib.CachedBmp_27();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,444,484.2);
+p.nominalBounds = new cjs.Rectangle(-78,-74,583.1,1022.7);
 
 
 (lib.VurigOranje = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// Laag_2
+	this.instance = new lib.__vurig();
+	this.instance.setTransform(-78,-74,0.2798,0.2798);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
 	// Laag_1
-	this.text = new cjs.Text("Vurig\nOranje", "bold 94px 'Calibri'");
+	this.text = new cjs.Text("Vurig\nOranje", "bold 80px 'Calibri'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 117;
+	this.text.lineHeight = 100;
 	this.text.lineWidth = 384;
 	this.text.parent = this;
-	this.text.setTransform(212.1,20.5);
+	this.text.setTransform(221.6,480.8);
 
-	this.instance = new lib.CachedBmp_26();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,444,484.2);
+p.nominalBounds = new cjs.Rectangle(-78,-74,583.1,1018.5);
 
 
 (lib.StralendGoudgeel = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Stralend\nGoud\nGeel", "bold 94px 'Calibri'");
+	this.instance = new lib.__zonnig();
+	this.instance.setTransform(-78,-74,0.2798,0.2798);
+
+	this.text = new cjs.Text("Stralend\nGoud Geel", "bold 81px 'Calibri'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 117;
+	this.text.lineHeight = 101;
 	this.text.lineWidth = 384;
 	this.text.parent = this;
-	this.text.setTransform(212.1,20.5);
+	this.text.setTransform(194.05,477.7);
 
-	this.instance = new lib.CachedBmp_25();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,444,484.2);
+p.nominalBounds = new cjs.Rectangle(-78,-74,583.1,1015.4);
 
 
 (lib.HelderKoningsblauw = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Helder\nKonings\nBlauw", "bold 94px 'Calibri'");
+	this.instance = new lib.__koninglijk();
+	this.instance.setTransform(-78,-74,0.2798,0.2798);
+
+	this.text = new cjs.Text("Helder Konings Blauw", "bold 86px 'Calibri'");
 	this.text.textAlign = "center";
-	this.text.lineHeight = 117;
-	this.text.lineWidth = 384;
+	this.text.lineHeight = 107;
+	this.text.lineWidth = 538;
 	this.text.parent = this;
-	this.text.setTransform(212.1,20.5);
+	this.text.setTransform(201,480.05);
 
-	this.instance = new lib.CachedBmp_24();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,444,484.2);
+p.nominalBounds = new cjs.Rectangle(-78,-74,583.1,1017.7);
 
 
 (lib.slecht = function(mode,startPosition,loop) {
@@ -597,7 +749,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,444,484.2);
 	this.text.parent = this;
 	this.text.setTransform(226.05,102.55);
 
-	this.instance = new lib.CachedBmp_23();
+	this.instance = new lib.CachedBmp_15();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
@@ -619,7 +771,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,452.1,344);
 	this.text.parent = this;
 	this.text.setTransform(226.05,102.55);
 
-	this.instance = new lib.CachedBmp_23();
+	this.instance = new lib.CachedBmp_15();
 	this.instance.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
@@ -634,252 +786,255 @@ p.nominalBounds = new cjs.Rectangle(0,0,452.1,344);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Vrijbuiter/\nProvocateur", "bold 44px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__vrijbuiter();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Vrijbuiter/\nProvocateur", "bold 44px 'Calibri'");
 	this.text.lineHeight = 56;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(10,228.5);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,231.6);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.3,538.7);
 
 
 (lib.verzorger = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Verzorger/\nVoedster", "bold 49px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__voeder();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Verzorger/\nVoedster", "bold 49px 'Calibri'");
 	this.text.lineHeight = 62;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(2,216.65);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.3,471.2);
 
 
 (lib.tovenaar = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
+	// Laag_2
+	this.instance = new lib.__tovenaar();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+
 	// Laag_1
-	this.text = new cjs.Text("Tovenaar/\nMagiër", "bold 50px 'Calibri'", "#FFFFFF");
+	this.text = new cjs.Text("Tovenaar/\nMagiër", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(10,226.7);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.text).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.3,481.3);
 
 
 (lib.schepper = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Schepper/\nKunstenaar", "bold 48px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__schepper();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Schepper/\nKunstenaar", "bold 48px 'Calibri'");
 	this.text.lineHeight = 61;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(10,228.05);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,231.6);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.6,538.2);
 
 
 (lib.ontdekker = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Ontdekker/\nAvonturier", "bold 45px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__avonturier();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Ontdekker/\nAvonturier", "bold 45px 'Calibri'");
 	this.text.lineHeight = 57;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(6,228.05);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,231.6);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.6,538.2);
 
 
 (lib.onbevangenkind = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Kind/\nNaïeveling", "bold 50px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__kind();
+	this.instance.setTransform(-48,40,0.2257,0.2257);
+
+	this.text = new cjs.Text("Kind/Naïeveling", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
-	this.text.lineWidth = 228;
+	this.text.lineWidth = 342;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(-39.9,379.45);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-48,40,351.8,478.1);
 
 
 (lib.liefhebber = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Liefhebber/\nGeliefde", "bold 45px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__liefhebber();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Liefhebber/\nGeliefde", "bold 45px 'Calibri'");
 	this.text.lineHeight = 57;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(2,216);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,231.6);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.3,526.2);
 
 
 (lib.koning = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Koning/\nKoningin", "bold 50px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__koning();
+	this.instance.setTransform(-56,44,0.2257,0.2257);
+
+	this.text = new cjs.Text("Koning/\nKoningin", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(6,362.9);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-56,44,329.3,452.5);
 
 
 (lib.held = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Held/\nStrijder", "bold 50px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__held();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Held/\nStrijder", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(10,228.05);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.3,482.6);
 
 
 (lib.grapjas = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Grapjas/\nNar", "bold 50px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__grapjas();
+	this.instance.setTransform(-48,-121,0.2257,0.2257);
+
+	this.text = new cjs.Text("Grapjas/\nNar", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(10,228.05);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,231.6);
+p.nominalBounds = new cjs.Rectangle(-48,-121,329.3,538.2);
 
 
 (lib.dewijze = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("De wijze/\nDenker", "bold 50px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__wijze();
+	this.instance.setTransform(-48,22,0.2024,0.2024);
+
+	this.text = new cjs.Text("De wijze/\nDenker", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(6,362.9);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-48,22,295.5,474.5);
 
 
 (lib.alleman = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.text = new cjs.Text("Alleman", "bold 50px 'Calibri'", "#FFFFFF");
+	this.instance = new lib.__alleman();
+	this.instance.setTransform(-48,30,0.2257,0.2257);
+
+	this.text = new cjs.Text("Alleman", "bold 50px 'Calibri'");
 	this.text.lineHeight = 63;
 	this.text.lineWidth = 228;
 	this.text.parent = this;
-	this.text.setTransform(10,42.45);
+	this.text.setTransform(6,374.95);
 
-	this.instance = new lib.CachedBmp_21();
-	this.instance.setTransform(0,0,0.5,0.5);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
+p.nominalBounds = new cjs.Rectangle(-48,30,329.3,478.5);
 
 
 (lib.zwartehoed = function(mode,startPosition,loop) {
@@ -891,7 +1046,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
 	this.text.lineHeight = 81;
 	this.text.lineWidth = 264;
 	this.text.parent = this;
-	this.text.setTransform(150.25,102.85);
+	this.text.setTransform(150.25,329.65);
 
 	this.instance = new lib.hat_black();
 	this.instance.setTransform(-142,-47,0.313,0.313);
@@ -901,7 +1056,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,240.1,226);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-142,-47,580.7,426.4);
+p.nominalBounds = new cjs.Rectangle(-142,-47,580.7,462.1);
 
 
 (lib.wittehoed = function(mode,startPosition,loop) {
@@ -913,7 +1068,7 @@ p.nominalBounds = new cjs.Rectangle(-142,-47,580.7,426.4);
 	this.text.lineHeight = 81;
 	this.text.lineWidth = 266;
 	this.text.parent = this;
-	this.text.setTransform(157.25,102.85);
+	this.text.setTransform(168.05,345.85);
 
 	this.instance = new lib.hat_white();
 	this.instance.setTransform(-140,-54,0.3198,0.3198);
@@ -923,7 +1078,7 @@ p.nominalBounds = new cjs.Rectangle(-142,-47,580.7,426.4);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-140,-54,593.3,435.6);
+p.nominalBounds = new cjs.Rectangle(-140,-54,593.3,485.3);
 
 
 (lib.rodehoed = function(mode,startPosition,loop) {
@@ -935,7 +1090,7 @@ p.nominalBounds = new cjs.Rectangle(-140,-54,593.3,435.6);
 	this.text.lineHeight = 79;
 	this.text.lineWidth = 264;
 	this.text.parent = this;
-	this.text.setTransform(150.25,102.85);
+	this.text.setTransform(150.25,318.85);
 
 	this.instance = new lib.hat_red();
 	this.instance.setTransform(-141,-51,0.3156,0.3156);
@@ -945,7 +1100,7 @@ p.nominalBounds = new cjs.Rectangle(-140,-54,593.3,435.6);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-141,-51,585.4,429.8);
+p.nominalBounds = new cjs.Rectangle(-141,-51,585.4,532.6);
 
 
 (lib.groenehoed = function(mode,startPosition,loop) {
@@ -957,7 +1112,7 @@ p.nominalBounds = new cjs.Rectangle(-141,-51,585.4,429.8);
 	this.text.lineHeight = 81;
 	this.text.lineWidth = 264;
 	this.text.parent = this;
-	this.text.setTransform(154.25,102.85);
+	this.text.setTransform(154.25,340.45);
 
 	this.instance = new lib.hat_green();
 	this.instance.setTransform(-141,-47,0.3149,0.3149);
@@ -967,7 +1122,7 @@ p.nominalBounds = new cjs.Rectangle(-141,-51,585.4,429.8);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-141,-47,584.2,428.9);
+p.nominalBounds = new cjs.Rectangle(-141,-47,584.2,472.9);
 
 
 (lib.gelehoed = function(mode,startPosition,loop) {
@@ -979,7 +1134,7 @@ p.nominalBounds = new cjs.Rectangle(-141,-47,584.2,428.9);
 	this.text.lineHeight = 81;
 	this.text.lineWidth = 264;
 	this.text.parent = this;
-	this.text.setTransform(150.25,102.85);
+	this.text.setTransform(150.25,318.85);
 
 	this.instance = new lib.hat_yellow();
 	this.instance.setTransform(-145,-55,0.3182,0.3182);
@@ -989,18 +1144,18 @@ p.nominalBounds = new cjs.Rectangle(-141,-47,584.2,428.9);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-145,-55,590.2,433.4);
+p.nominalBounds = new cjs.Rectangle(-145,-55,590.2,459.3);
 
 
 (lib.blauwehoed = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_2
-	this.text = new cjs.Text("Beschouwend", "bold 44px 'Calibri'");
-	this.text.lineHeight = 56;
-	this.text.lineWidth = 270;
+	this.text = new cjs.Text("Beschouwend", "bold 56px 'Calibri'");
+	this.text.lineHeight = 70;
+	this.text.lineWidth = 369;
 	this.text.parent = this;
-	this.text.setTransform(30.05,118.85);
+	this.text.setTransform(3.05,345.65);
 
 	this.instance = new lib.hat_blue();
 	this.instance.setTransform(-142,-56,0.3223,0.3223);
@@ -1010,7 +1165,7 @@ p.nominalBounds = new cjs.Rectangle(-145,-55,590.2,433.4);
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-142,-56,597.8,438.9);
+p.nominalBounds = new cjs.Rectangle(-142,-56,597.8,530.7);
 
 
 (lib.volgende = function(mode,startPosition,loop) {
@@ -1023,10 +1178,10 @@ p.nominalBounds = new cjs.Rectangle(-142,-56,597.8,438.9);
 	this.text.parent = this;
 	this.text.setTransform(22,15.75);
 
-	this.instance = new lib.CachedBmp_2();
+	this.instance = new lib.CachedBmp_6();
 	this.instance.setTransform(0,0,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_3();
+	this.instance_1 = new lib.CachedBmp_7();
 	this.instance_1.setTransform(0,0,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance},{t:this.text,p:{color:"#FFFFFF"}}]}).to({state:[{t:this.instance_1},{t:this.text,p:{color:"#FFFF33"}}]},1).wait(1));
@@ -1041,38 +1196,38 @@ p.nominalBounds = new cjs.Rectangle(0,0,381,135);
 	this.initialize(mode,startPosition,loop,{});
 
 	// Laag_1
-	this.instance = new lib.CachedBmp_60();
-	this.instance.setTransform(962.25,-982.2,0.5,0.5);
+	this.instance = new lib.CachedBmp_4();
+	this.instance.setTransform(1023.1,-918.7,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_60();
-	this.instance_1.setTransform(962.25,538.15,0.5,0.5);
+	this.instance_1 = new lib.CachedBmp_3();
+	this.instance_1.setTransform(1023.1,621.65,0.5,0.5);
 
-	this.instance_2 = new lib.CachedBmp_60();
-	this.instance_2.setTransform(-1568.35,538.15,0.5,0.5);
+	this.instance_2 = new lib.CachedBmp_2();
+	this.instance_2.setTransform(-1527.5,621.65,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_60();
-	this.instance_3.setTransform(-1568.35,-982.2,0.5,0.5);
+	this.instance_3 = new lib.CachedBmp_3();
+	this.instance_3.setTransform(-1527.5,-918.7,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(-1568.3,-982.2,5061.1,3040.8999999999996);
+p.nominalBounds = new cjs.Rectangle(-1527.5,-918.7,5101.1,3080.8999999999996);
 
 
 (lib.selecte = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 
-	// Laag_1
-	this.instance = new lib.CachedBmp_1();
-	this.instance.setTransform(0,0,0.5,0.5);
+	// Laag_2
+	this.instance = new lib.CachedBmp_26();
+	this.instance.setTransform(-5.9,-2.05,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.selecte, new cjs.Rectangle(0,0,197.5,309), null);
+}).prototype = getMCSymbolPrototype(lib.selecte, new cjs.Rectangle(-5.9,-2,225,329.5), null);
 
 
 // stage content:
@@ -1508,27 +1663,27 @@ p.nominalBounds = new cjs.Rectangle(-1568.3,-982.2,5061.1,3040.8999999999996);
 
 	this.archetype12 = new lib.dewijze();
 	this.archetype12.name = "archetype12";
-	this.archetype12.setTransform(1500.45,554.4);
+	this.archetype12.setTransform(1759.95,689.1,0.8823,0.8823,0,0,0,106.7,213.6);
 	new cjs.ButtonHelper(this.archetype12, 0, 1, 1);
 
 	this.vurig = new lib.VurigOranje();
 	this.vurig.name = "vurig";
-	this.vurig.setTransform(304,602.7,0.9174,0.9174,0,0,0,218.1,218.2);
+	this.vurig.setTransform(282,424.7,0.9174,0.9174,0,0,0,218.1,218.2);
 	new cjs.ButtonHelper(this.vurig, 0, 1, 1);
 
 	this.stralend = new lib.StralendGoudgeel();
 	this.stralend.name = "stralend";
-	this.stralend.setTransform(744.4,590.7,0.9174,0.9174,0,0,0,218.1,205.1);
+	this.stralend.setTransform(730.4,412.7,0.9174,0.9174,0,0,0,218.1,205.1);
 	new cjs.ButtonHelper(this.stralend, 0, 1, 1);
 
 	this.helder = new lib.HelderKoningsblauw();
 	this.helder.name = "helder";
-	this.helder.setTransform(1196.85,598.7,0.9174,0.9174,0,0,0,231.2,213.8);
+	this.helder.setTransform(1212.85,420.7,0.9174,0.9174,0,0,0,231.2,213.8);
 	new cjs.ButtonHelper(this.helder, 0, 1, 1);
 
 	this.warm = new lib.WarmGrasgroen();
 	this.warm.name = "warm";
-	this.warm.setTransform(1628.95,595.3,0.9174,0.9174,0,0,0,222.1,210.1);
+	this.warm.setTransform(1662.95,417.3,0.9174,0.9174,0,0,0,222.1,210.1);
 	new cjs.ButtonHelper(this.warm, 0, 1, 1);
 
 	this.text_1 = new cjs.Text(" Wat voor soort goede of slechte dag is het? ", "bold 79px 'Calibri'");
@@ -1540,110 +1695,110 @@ p.nominalBounds = new cjs.Rectangle(-1568.3,-982.2,5061.1,3040.8999999999996);
 
 	this.uitdaging10 = new lib.Uitdaging10();
 	this.uitdaging10.name = "uitdaging10";
-	this.uitdaging10.setTransform(1455.9,593.7);
+	this.uitdaging10.setTransform(1764.05,361.95,1,1,0,0,0,148.3,198.3);
 	new cjs.ButtonHelper(this.uitdaging10, 0, 1, 1);
 
 	this.uitdaging9 = new lib.Uitdaging9();
 	this.uitdaging9.name = "uitdaging9";
-	this.uitdaging9.setTransform(1131.85,593.7);
+	this.uitdaging9.setTransform(1674.2,768,1,1,0,0,0,156.3,174.3);
 	new cjs.ButtonHelper(this.uitdaging9, 0, 1, 1);
 
 	this.uitdaging8 = new lib.Uitdaging8();
 	this.uitdaging8.name = "uitdaging8";
-	this.uitdaging8.setTransform(811.8,593.7);
+	this.uitdaging8.setTransform(1340.05,764,1,1,0,0,0,142.2,170.3);
 	new cjs.ButtonHelper(this.uitdaging8, 0, 1, 1);
 
 	this.uitdaging7 = new lib.Uitdaging7();
 	this.uitdaging7.name = "uitdaging7";
-	this.uitdaging7.setTransform(491.75,593.7);
+	this.uitdaging7.setTransform(625.75,774,1,1,0,0,0,146.2,180.3);
 	new cjs.ButtonHelper(this.uitdaging7, 0, 1, 1);
 
 	this.uitdaging6 = new lib.Uitdaging6();
 	this.uitdaging6.name = "uitdaging6";
-	this.uitdaging6.setTransform(171.7,593.7);
+	this.uitdaging6.setTransform(301.7,804,1,1,0,0,0,142.2,210.3);
 	new cjs.ButtonHelper(this.uitdaging6, 0, 1, 1);
 
 	this.uitdaging5 = new lib.Uitdaging5();
 	this.uitdaging5.name = "uitdaging5";
-	this.uitdaging5.setTransform(1447.9,289.65);
+	this.uitdaging5.setTransform(1436,357.95,1,1,0,0,0,144.3,194.3);
 	new cjs.ButtonHelper(this.uitdaging5, 0, 1, 1);
 
 	this.uitdaging4 = new lib.Uitdaging4();
 	this.uitdaging4.name = "uitdaging4";
-	this.uitdaging4.setTransform(1131.85,289.65);
+	this.uitdaging4.setTransform(1119.85,339.95,1,1,0,0,0,144.2,176.3);
 	new cjs.ButtonHelper(this.uitdaging4, 0, 1, 1);
 
 	this.uitdaging3 = new lib.Uitdaging3();
 	this.uitdaging3.name = "uitdaging3";
-	this.uitdaging3.setTransform(811.8,289.65);
+	this.uitdaging3.setTransform(799.8,335.95,1,1,0,0,0,144.2,172.3);
 	new cjs.ButtonHelper(this.uitdaging3, 0, 1, 1);
 
 	this.uitdaging2 = new lib.Uitdaging2();
 	this.uitdaging2.name = "uitdaging2";
-	this.uitdaging2.setTransform(491.75,289.65);
+	this.uitdaging2.setTransform(473.75,335.95,1,1,0,0,0,142.2,172.3);
 	new cjs.ButtonHelper(this.uitdaging2, 0, 1, 1);
 
 	this.uitdaging1 = new lib.Uitdaging1();
 	this.uitdaging1.name = "uitdaging1";
-	this.uitdaging1.setTransform(315.7,429.65,1,1,0,0,0,144,140);
+	this.uitdaging1.setTransform(155.5,303.65,1,1,0,0,0,144,140);
 	new cjs.ButtonHelper(this.uitdaging1, 0, 1, 1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text,p:{x:256.05,text:" Hoe stel je je vaak op in discussies? ",lineWidth:1458,y:38.55,font:"bold 94px 'Calibri'",textAlign:"",lineHeight:116.75}}]}).to({state:[{t:this.text,p:{x:244.1,text:" Welk archetype past het beste bij je?",lineWidth:1482,y:38.55,font:"bold 94px 'Calibri'",textAlign:"",lineHeight:116.75}},{t:this.archetype12}]},1).to({state:[{t:this.text,p:{x:244.1,text:" Heb je een goede dag of slechte dag?",lineWidth:1482,y:38.55,font:"bold 94px 'Calibri'",textAlign:"",lineHeight:116.75}}]},1).to({state:[{t:this.text_1,p:{text:" Wat voor soort goede of slechte dag is het? ",y:38.55}},{t:this.warm},{t:this.helder},{t:this.text,p:{x:-926.2,text:"",lineWidth:6,y:442.65,font:"94px 'Calibri-Bold'",textAlign:"center",lineHeight:116.75}},{t:this.stralend},{t:this.vurig}]},1).to({state:[{t:this.text_1,p:{text:"Wat zijn jouw uitdagingen voor de toekomst? Waar wil je aan werken? ",y:38.55}},{t:this.text,p:{x:-926.2,text:"",lineWidth:6,y:442.65,font:"79px 'Calibri-Bold'",textAlign:"center",lineHeight:98.4}},{t:this.uitdaging1},{t:this.uitdaging2},{t:this.uitdaging3},{t:this.uitdaging4},{t:this.uitdaging5},{t:this.uitdaging6},{t:this.uitdaging7},{t:this.uitdaging8},{t:this.uitdaging9},{t:this.uitdaging10}]},1).to({state:[{t:this.text_1,p:{text:"Dat was de test, bedankt voor het invullen van de antwoorden.\n\nIn de uiteindelijke versie zijn hier de antwoorden te zien.",y:32.55}},{t:this.text,p:{x:-929.3,text:"",lineWidth:6,y:442.65,font:"65px 'Calibri-Bold'",textAlign:"",lineHeight:81.35}}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.text,p:{x:256.05,text:" Hoe stel je je vaak op in discussies? ",lineWidth:1458,y:38.55,font:"bold 94px 'Calibri'",textAlign:"",lineHeight:116.75}}]}).to({state:[{t:this.text,p:{x:244.1,text:" Welk archetype past het beste bij je?",lineWidth:1482,y:38.55,font:"bold 94px 'Calibri'",textAlign:"",lineHeight:116.75}},{t:this.archetype12}]},1).to({state:[{t:this.text,p:{x:244.1,text:" Heb je een goede dag of slechte dag?",lineWidth:1482,y:38.55,font:"bold 94px 'Calibri'",textAlign:"",lineHeight:116.75}}]},1).to({state:[{t:this.text_1,p:{text:" Wat voor soort goede of slechte dag is het? ",y:38.55}},{t:this.warm},{t:this.helder},{t:this.text,p:{x:-926.2,text:"",lineWidth:6,y:442.65,font:"94px 'Calibri-Bold'",textAlign:"center",lineHeight:116.75}},{t:this.stralend},{t:this.vurig}]},1).to({state:[{t:this.text_1,p:{text:"Wat zijn jouw uitdagingen voor de toekomst? Waar wil je aan werken? ",y:38.55}},{t:this.text,p:{x:-926.2,text:"",lineWidth:6,y:442.65,font:"79px 'Calibri-Bold'",textAlign:"center",lineHeight:98.4}},{t:this.uitdaging1},{t:this.uitdaging2},{t:this.uitdaging3},{t:this.uitdaging4},{t:this.uitdaging5},{t:this.uitdaging6},{t:this.uitdaging7},{t:this.uitdaging8},{t:this.uitdaging9},{t:this.uitdaging10}]},1).to({state:[{t:this.text_1,p:{text:"Dat was de test, bedankt voor het invullen van de antwoorden.\n\nIn de uiteindelijke versie zijn hier de antwoorden te zien.",y:220.6}},{t:this.text,p:{x:-929.3,text:"",lineWidth:6,y:442.65,font:"65px 'Calibri-Bold'",textAlign:"",lineHeight:81.35}}]},1).wait(1));
 
 	// btns
 	this.archetype11 = new lib.koning();
 	this.archetype11.name = "archetype11";
-	this.archetype11.setTransform(1248.35,554.4);
+	this.archetype11.setTransform(1480.4,747.15,0.8823,0.8823,0,0,0,111.3,279.4);
 	new cjs.ButtonHelper(this.archetype11, 0, 1, 1);
 
 	this.archetype10 = new lib.onbevangenkind();
 	this.archetype10.name = "archetype10";
-	this.archetype10.setTransform(994.3,554.4);
+	this.archetype10.setTransform(1172.6,727.2,0.8823,0.8823,0,0,0,122.7,274.8);
 	new cjs.ButtonHelper(this.archetype10, 0, 1, 1);
 
 	this.archetype8 = new lib.verzorger();
 	this.archetype8.name = "archetype8";
-	this.archetype8.setTransform(488.2,554.4);
+	this.archetype8.setTransform(460.65,725.55,0.8823,0.8823,0,0,0,52.3,115.8);
 	new cjs.ButtonHelper(this.archetype8, 0, 1, 1);
 
 	this.archetype9 = new lib.alleman();
 	this.archetype9.name = "archetype9";
-	this.archetype9.setTransform(740.25,554.4);
+	this.archetype9.setTransform(806.4,753.25,0.8823,0.8823,0,0,0,111.3,304.3);
 	new cjs.ButtonHelper(this.archetype9, 0, 1, 1);
 
 	this.archetype7 = new lib.liefhebber();
 	this.archetype7.name = "archetype7";
-	this.archetype7.setTransform(234.1,554.4);
+	this.archetype7.setTransform(233.5,723.3,0.8823,0.8823,0,0,0,113.6,168.2);
 	new cjs.ButtonHelper(this.archetype7, 0, 1, 1);
 
 	this.archetype6 = new lib.grapjas();
 	this.archetype6.name = "archetype6";
-	this.archetype6.setTransform(1500.45,310.15);
+	this.archetype6.setTransform(1775,328.2,0.8823,0.8823,0,0,0,140.8,129.4);
 	new cjs.ButtonHelper(this.archetype6, 0, 1, 1);
 
 	this.archetype5 = new lib.vrijbuiter();
 	this.archetype5.name = "archetype5";
-	this.archetype5.setTransform(1248.35,310.15);
+	this.archetype5.setTransform(1467.55,304.15,0.8823,0.8823,0,0,0,118.2,102.1);
 	new cjs.ButtonHelper(this.archetype5, 0, 1, 1);
 
 	this.archetype4 = new lib.ontdekker();
 	this.archetype4.name = "archetype4";
-	this.archetype4.setTransform(994.3,310.15);
+	this.archetype4.setTransform(1188.5,325.85,0.8823,0.8823,0,0,0,122.7,154.3);
 	new cjs.ButtonHelper(this.archetype4, 0, 1, 1);
 
 	this.archetype3 = new lib.schepper();
 	this.archetype3.name = "archetype3";
-	this.archetype3.setTransform(740.25,310.15);
+	this.archetype3.setTransform(820.5,370.7,0.8823,0.8823,0,0,0,145.3,177.1);
 	new cjs.ButtonHelper(this.archetype3, 0, 1, 1);
 
 	this.archetype2 = new lib.held();
 	this.archetype2.name = "archetype2";
-	this.archetype2.setTransform(488.2,310.15);
+	this.archetype2.setTransform(531.85,379.75,0.8823,0.8823,0,0,0,143.1,161.3);
 	new cjs.ButtonHelper(this.archetype2, 0, 1, 1);
 
 	this.archetype1 = new lib.tovenaar();
 	this.archetype1.name = "archetype1";
-	this.archetype1.setTransform(236.1,309.05,1,1,0,0,0,2,-1.1);
+	this.archetype1.setTransform(239.2,369.05,0.8823,0.8823,0,0,0,120.1,203.3);
 	new cjs.ButtonHelper(this.archetype1, 0, 1, 1);
 
 	this.slecht = new lib.slecht();
@@ -1693,46 +1848,46 @@ p.nominalBounds = new cjs.Rectangle(-1568.3,-982.2,5061.1,3040.8999999999996);
 	// Laag_1
 	this.wit = new lib.wittehoed();
 	this.wit.name = "wit";
-	this.wit.setTransform(1489.35,704.25,1,1,0,0,0,160.1,158.1);
+	this.wit.setTransform(1412.1,664.25,0.8575,0.8575,0,0,0,160.1,158.1);
 	new cjs.ButtonHelper(this.wit, 0, 1, 1);
 
 	this.blauw = new lib.blauwehoed();
 	this.blauw.name = "blauw";
-	this.blauw.setTransform(951.15,716.25,1,1,0,0,0,158,170.1);
+	this.blauw.setTransform(950.6,674.55,0.8575,0.8575,0,0,0,158,170.1);
 	new cjs.ButtonHelper(this.blauw, 0, 1, 1);
 
 	this.groen = new lib.groenehoed();
 	this.groen.name = "groen";
-	this.groen.setTransform(412.15,706.25,1,1,0,0,0,158.1,160.1);
+	this.groen.setTransform(487.15,687,0.8575,0.8575,0,0,0,156.6,184.6);
 	new cjs.ButtonHelper(this.groen, 0, 1, 1);
 
 	this.geel = new lib.gelehoed();
 	this.geel.name = "geel";
-	this.geel.setTransform(1483.35,354.15,1,1,0,0,0,154.1,156.1);
+	this.geel.setTransform(1406.95,312.05,0.8575,0.8575,0,0,0,154.1,156.1);
 	new cjs.ButtonHelper(this.geel, 0, 1, 1);
 
 	this.rood = new lib.rodehoed();
 	this.rood.name = "rood";
-	this.rood.setTransform(949.15,362.15,1,1,0,0,0,156,164.1);
+	this.rood.setTransform(955.4,332.4,0.8575,0.8575,0,0,0,163.6,179.8);
 	new cjs.ButtonHelper(this.rood, 0, 1, 1);
 
 	this.zwart = new lib.zwartehoed();
 	this.zwart.name = "zwart";
-	this.zwart.setTransform(409.15,356.15,1,1,0,0,0,155.1,158.1);
+	this.zwart.setTransform(487.15,338.45,0.8575,0.8575,0,0,0,156.6,186.9);
 	new cjs.ButtonHelper(this.zwart, 0, 1, 1);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.zwart},{t:this.rood},{t:this.geel},{t:this.groen},{t:this.blauw},{t:this.wit}]}).to({state:[]},1).wait(5));
 
 	// Laag_2
 	this.instance = new lib.Symbool79("synched",0);
-	this.instance.setTransform(1924.4,1076.5,1,1,0,0,0,1924.4,1076.5);
+	this.instance.setTransform(2046.1,1243.5,1,1,0,0,0,2046.1,1243.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(6));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-608.3,-442.2,4101.1,2500.8999999999996);
+p.nominalBounds = new cjs.Rectangle(-567.5,-378.7,4141.1,2540.8999999999996);
 // library properties:
 lib.properties = {
 	id: '2DE952ADEF3EDC4E9C9B0EF70658E13B',
@@ -1742,7 +1897,23 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_60.png", id:"CachedBmp_60"},
+		{src:"images/__bewustwakker.png", id:"__bewustwakker"},
+		{src:"images/__autonoomzichtbaar.png", id:"__autonoomzichtbaar"},
+		{src:"images/__bijjezelfblijvenreflecteren.png", id:"__bijjezelfblijvenreflecteren"},
+		{src:"images/__gras.png", id:"__gras"},
+		{src:"images/__leergierigflexibelgeduldig.png", id:"__leergierigflexibelgeduldig"},
+		{src:"images/__nieuwedingenproberenmoedig.png", id:"__nieuwedingenproberenmoedig"},
+		{src:"images/__oordeelloosempatischrespectvol.png", id:"__oordeelloosempatischrespectvol"},
+		{src:"images/__opentoegankelijkeerlijk.png", id:"__opentoegankelijkeerlijk"},
+		{src:"images/__overgavebescheiden.png", id:"__overgavebescheiden"},
+		{src:"images/__betrokkenverbindendhulpvaardig.png", id:"__betrokkenverbindendhulpvaardig"},
+		{src:"images/__efficientstructuurgeordend.png", id:"__efficientstructuurgeordend"},
+		{src:"images/__vurig.png", id:"__vurig"},
+		{src:"images/__zonnig.png", id:"__zonnig"},
+		{src:"images/__koninglijk.png", id:"__koninglijk"},
+		{src:"images/CachedBmp_3.png", id:"CachedBmp_3"},
+		{src:"images/CachedBmp_2.png", id:"CachedBmp_2"},
+		{src:"images/CachedBmp_4.png", id:"CachedBmp_4"},
 		{src:"images/IkBen_atlas_1.png", id:"IkBen_atlas_1"},
 		{src:"images/IkBen_atlas_2.png", id:"IkBen_atlas_2"},
 		{src:"images/IkBen_atlas_3.png", id:"IkBen_atlas_3"},
@@ -1750,7 +1921,18 @@ lib.properties = {
 		{src:"images/IkBen_atlas_5.png", id:"IkBen_atlas_5"},
 		{src:"images/IkBen_atlas_6.png", id:"IkBen_atlas_6"},
 		{src:"images/IkBen_atlas_7.png", id:"IkBen_atlas_7"},
-		{src:"images/IkBen_atlas_8.png", id:"IkBen_atlas_8"}
+		{src:"images/IkBen_atlas_8.png", id:"IkBen_atlas_8"},
+		{src:"images/IkBen_atlas_9.png", id:"IkBen_atlas_9"},
+		{src:"images/IkBen_atlas_10.png", id:"IkBen_atlas_10"},
+		{src:"images/IkBen_atlas_11.png", id:"IkBen_atlas_11"},
+		{src:"images/IkBen_atlas_12.png", id:"IkBen_atlas_12"},
+		{src:"images/IkBen_atlas_13.png", id:"IkBen_atlas_13"},
+		{src:"images/IkBen_atlas_14.png", id:"IkBen_atlas_14"},
+		{src:"images/IkBen_atlas_15.png", id:"IkBen_atlas_15"},
+		{src:"images/IkBen_atlas_16.png", id:"IkBen_atlas_16"},
+		{src:"images/IkBen_atlas_17.png", id:"IkBen_atlas_17"},
+		{src:"images/IkBen_atlas_18.png", id:"IkBen_atlas_18"},
+		{src:"images/IkBen_atlas_19.png", id:"IkBen_atlas_19"}
 	],
 	preloads: []
 };
